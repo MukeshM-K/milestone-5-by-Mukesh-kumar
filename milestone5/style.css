@@ -1,0 +1,196 @@
+body {
+    padding: 0;
+    background-image: url(./images\ \(1\).jfif);
+    background-size: 100vw 100vh;
+    margin: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+h1{
+    text-align: center;
+    color: #f6f6f6;
+}
+
+form{
+    margin: auto;
+    background-color: #e2e7e9;
+    max-width: 600px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 8px;
+}
+
+legend{
+    margin-bottom: 0px;
+    text-align: left;
+    color: #2c3e50;
+    font-weight: bold;
+
+}
+ 
+fieldset{
+    border: 2px solid #435916;
+    background-color: aliceblue;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+
+input{
+    border: 1px solid #3498bd;
+    padding:8px;
+    margin-top: 4px;
+    border-radius: 4px;
+    width: calc(100% - 1px);
+    box-sizing: border-box;
+}
+
+label{
+    display: block;
+    margin-top: 10px;
+    color: #2c3e50;
+
+}
+
+button{
+    display: inline;
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(31, 130, 143);
+    color: rgb(251, 251, 251);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+textarea { 
+    width: calc(100% - 1px);
+    padding:8px;
+    box-sizing: border-box;
+    margin-top: 4px;
+    border: 1px solid #3498bd;
+    border-radius: 4px;
+
+}
+
+button:hover{
+    background-color: cornflowerblue;
+}
+
+
+#resumeOutput{
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border: 2px solid #3498bd;
+    border-radius: 8px;
+    background-color: #c8cacc;
+}
+
+#resumeOutput h2{
+    color: #3e4758;
+    text-align: center;
+    font-size: 50px;
+    
+}
+
+.profilePicture{
+    display: block;
+    margin: 0;
+    border: 2px solid #133b8b;
+    box-shadow: 0 4px 8px rgba(11, 7, 211, 0.5);
+    border-radius: 500%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+/* Updated button styling */
+button {
+    display: inline-block;
+    width: 100%;
+    padding: 12px;
+    background-color: #1f828f;
+    color: #fbfbfb;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-top: 12px;
+    font-size: 18px;
+    font-family: 'Roboto', Arial, sans-serif;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #2a1070;
+}
+
+/* Focus state for input fields */
+input:focus, textarea:focus {
+    border-color: #106970;
+    outline: none;
+    box-shadow: 0 0 5px rgba(16, 105, 112, 0.5);
+}
+
+/* Profile picture styling */
+.profilePicture {
+    display: block;
+    margin: 0 auto 20px;
+    border: 4px solid #133b8b;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    clip-path: circle();
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+/* Responsive layout */
+@media (max-width: 600px) {
+    form, #resumeOutput {
+        width: 100%;
+        padding: 10px;
+    }
+}
+
+
+/* General button styling */
+.download-button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #4CAF50; /* Green background */
+    border: none;
+    border-radius: 5px;
+    text-decoration: none; /* Remove underline */
+    text-align: center;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Hover effect */
+.download-button:hover {
+    background-color: #45a049; /* Darker green on hover */
+    transform: translateY(-2px); /* Slight lift effect */
+}
+
+/* Focus effect for accessibility */
+.download-button:focus {
+    outline: 2px solid #2e7d32; /* Green outline on focus */
+    outline-offset: 2px;
+}
+
+/* Active effect when clicking */
+.download-button:active {
+    transform: translateY(1px); /* Slight press effect */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
